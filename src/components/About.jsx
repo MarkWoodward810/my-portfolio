@@ -6,7 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='w-full min-w-[180px]'>
+  <Tilt className='w-full min-w-[160px]'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -48,6 +48,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
+        viewport={{ once: true, amount: 0.25 }}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a design engineer with 3+ years of industry experience designing electro-mechanical systems.

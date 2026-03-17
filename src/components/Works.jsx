@@ -15,10 +15,10 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div
-      variants={fadeIn("up", "spring", 0.2, 0.75)}
+      variants={fadeIn("up", "spring", 0.3, 0.75)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.05 }}
+      viewport={{ once: true, amount: 0.1 }}
     >
       <Tilt
         options={{
@@ -75,6 +75,7 @@ const Works = () => {
         variants={fadeIn("", "", 0.1, 1)}
         initial="hidden"
         whileInView="show"
+        viewport={{ once: true, amount: 0.25 }}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         These projects highlight my skills and experience through practical, real-world applications. 
