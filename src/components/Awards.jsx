@@ -7,8 +7,8 @@ const Awards = () => {
 
   return (
     <div className="relative w-full overflow-hidden">
-      <div className="pointer-events-none absolute left-0 top-0 h-full w-96 bg-gradient-to-r from-primary to-transparent z-10" />
-      <div className="pointer-events-none absolute right-0 top-0 h-full w-96 bg-gradient-to-l from-primary to-transparent z-10" />
+      <div className="pointer-events-none absolute left-0 top-0 h-full w-16 sm:w-32 md:w-96 bg-gradient-to-r from-primary to-transparent z-10" />
+      <div className="pointer-events-none absolute right-0 top-0 h-full w-16 sm:w-32 md:w-96 bg-gradient-to-l from-primary to-transparent z-10" />
 
       <motion.div
         className="flex gap-62 w-max"

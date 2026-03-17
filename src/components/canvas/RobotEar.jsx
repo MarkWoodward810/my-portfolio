@@ -39,7 +39,7 @@ const RobotEar = ({ isMobile }) => {
       <hemisphereLight intensity={0.3} groundColor="black" />
       <primitive
         object={ear.scene}
-        scale={isMobile ? 30 : 34}
+        scale={isMobile ? 20 : 34}
         position={isMobile ? [-2.5, -3, 0] : [-2.5, -4.5, 0]}
         rotation={[-Math.PI/2, 0, Math.PI/1.75]}
       />
