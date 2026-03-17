@@ -9,7 +9,7 @@ const RobotEar = ({ isMobile }) => {
   const ear = useGLTF("./pinna/Pinna_System.gltf");
 
   useMemo(() => {
-    const lineMaterial = new THREE.LineBasicMaterial({ color: "#1C1C1C", transparent: true, opacity: 0.5 });
+    const lineMaterial = new THREE.LineBasicMaterial({ color: "#1C1C1C", transparent: true, opacity: 0.3 });
     const geometries = [];
 
     ear.scene.traverse((child) => {
@@ -40,7 +40,7 @@ const RobotEar = ({ isMobile }) => {
       <primitive
         object={ear.scene}
         scale={isMobile ? 20 : 34}
-        position={isMobile ? [-1.2, -3, 0] : [-2.5, -4.5, 0]}
+        position={isMobile ? [-1.3, -2.8, 0] : [-2.5, -4.5, 0]}
         rotation={[-Math.PI/2, 0, Math.PI/1.75]}
       />
     </mesh>
