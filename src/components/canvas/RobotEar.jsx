@@ -40,7 +40,7 @@ const RobotEar = ({ isMobile }) => {
       <primitive
         object={ear.scene}
         scale={isMobile ? 20 : 34}
-        position={isMobile ? [-2.5, -3, 0] : [-2.5, -4.5, 0]}
+        position={isMobile ? [-1, -3, 0] : [-2.5, -4.5, 0]}
         rotation={[-Math.PI/2, 0, Math.PI/1.75]}
       />
     </mesh>
@@ -51,7 +51,7 @@ const RobotEarCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 640px)");
 
     setIsMobile(mediaQuery.matches);
 

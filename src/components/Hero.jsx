@@ -21,7 +21,7 @@ const Hero = () => {
             Hi, I'm <span className='text-header'>Mark</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I design and build electromechanical systems <br className='sm:block hidden' />
+            I design and build electromechanical systems <br className='md:block hidden' />
             that push the boundaries of robotics and automation.
           </p>
         </div>

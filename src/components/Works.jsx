@@ -7,7 +7,6 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
-  index,
   name,
   description,
   image,
@@ -15,7 +14,12 @@ const ProjectCard = ({
   pdf_link
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", 0.2, 0.75)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.05 }}
+    >
       <Tilt
         options={{
           max: 45,
@@ -61,22 +65,22 @@ const Works = () => {
         variants={textVariant()}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.25 }}
       >
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
 
-      <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          These projects highlight my skills and experience through practical, real-world applications. 
-          Each project includes a brief overview and links to blogs or reports providing additional information, with some details limited due to IP-sensitive content.
-          I am proud to have solved complex problems across a broad range of technologies and multiple products at this stage of my career.
-        </motion.p>
-      </div>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        initial="hidden"
+        whileInView="show"
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        These projects highlight my skills and experience through practical, real-world applications. 
+        Each project includes a brief overview and links to blogs or reports providing additional information, with some details limited due to IP-sensitive content.
+        I am proud to have solved complex problems across a broad range of technologies and multiple products at this stage of my career.
+      </motion.p>
 
       <div className='mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7'>
         {projects.map((project, index) => (

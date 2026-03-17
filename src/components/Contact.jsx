@@ -19,7 +19,7 @@ const Contact = () => {
         <img
           src={me}
           alt="Photo of Mark Woodward"
-          className="absolute top-4 right-4 w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full object-cover"
+          className="absolute top-4 right-4 w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover"
         />
 
         <div className="text-white font-medium space-y-1 mt-6">
@@ -27,7 +27,7 @@ const Contact = () => {
             Mark Woodward
           </div>
 
-          <div className="flex items-center gap-2 text-[13px] sm:text-[16px]">
+          <div className="flex items-center gap-2 text-[14px] sm:text-[16px]">
             <img
               src={email}
               alt="Email icon"
@@ -41,7 +41,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/mark-woodward-a28708195"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-[#126dc3] text-[13px] sm:text-[16px] hover:underline font-semibold"
+              className="flex items-center gap-2 text-[#126dc3] text-[14px] sm:text-[16px] hover:underline font-semibold"
             >
               <img
                 src={linkedIn}

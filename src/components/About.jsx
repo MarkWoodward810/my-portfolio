@@ -6,7 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='w-full'>
+  <Tilt className='w-full min-w-[180px]'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -17,15 +17,15 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-[#5C320E] rounded-[20px] py-5 px-6 md:px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-[#5C320E] rounded-[20px] py-5 px-6 md:px-12 min-h-[250px] sm:min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
           alt={title}
-          className='w-16 h-16 object-contain'
+          className='w-16 h-16 sm:w-20 sm:h-20 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className='text-white text-[18px] md:text-[20px] font-bold text-center'>
           {title}
         </h3>
       </div>
@@ -57,7 +57,7 @@ const About = () => {
         If you're looking for someone who can blend creativity with technical depth, I'd love to help take your projects to the next level.
       </motion.p>
 
-      <div className='mt-20 grid grid-cols-2 md:grid-cols-4 gap-6'>
+      <div className='mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

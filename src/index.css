@@ -58,13 +58,13 @@
   background: #3e2723; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #6d4c41,
-    #3e2723
+    #3e2723,
+    #2B0E08
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #6d4c41,
-    #3e2723
+    #3e2723,
+    #2B0E08
   ); /* modern browsers */
 }
 
