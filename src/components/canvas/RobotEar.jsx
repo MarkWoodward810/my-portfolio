@@ -6,7 +6,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const RobotEar = ({ isMobile }) => {
-  const ear = useGLTF("./pinna/Pinna_System.gltf");
+  const ear = useGLTF("./pinna/Programmable-Air_complete.gltf");
 
   useMemo(() => {
     const lineMaterial = new THREE.LineBasicMaterial({ color: "#1C1C1C", transparent: true, opacity: 0.3 });
@@ -14,7 +14,7 @@ const RobotEar = ({ isMobile }) => {
 
     ear.scene.traverse((child) => {
       if (child.isMesh && child.geometry.attributes.position.count < 5000) {
-        const edges = new THREE.EdgesGeometry(child.geometry, 90);
+        const edges = new THREE.EdgesGeometry(child.geometry, 120);
         geometries.push(edges);
       }
 
