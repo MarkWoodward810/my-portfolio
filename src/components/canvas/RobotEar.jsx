@@ -6,7 +6,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const RobotEar = ({ isMobile }) => {
-  const ear = useGLTF("./pinna/Programmable-Air_complete.gltf");
+  const ear = useGLTF("./pinna/Pinna_System.gltf");
 
   useMemo(() => {
     const lineMaterial = new THREE.LineBasicMaterial({ color: "#1C1C1C", transparent: true, opacity: 0.3 });
