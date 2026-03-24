@@ -22,7 +22,7 @@ const ProjectCard = ({
     >
       <Tilt
         options={{
-          max: 45,
+          max: 35,
           scale: 1,
           speed: 450,
         }}

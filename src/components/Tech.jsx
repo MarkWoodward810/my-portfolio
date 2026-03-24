@@ -1,10 +1,11 @@
 import { motion } from "framer-motion"; 
 import { BallCanvas } from "./canvas"; 
 import { technologies } from "../constants"; 
+import { SectionWrapper } from "../hoc";
 
 const Tech = () => { 
   return ( 
-    <div className='flex flex-row flex-wrap justify-center gap-10 px-16'> 
+    <div className='flex flex-row flex-wrap justify-center gap-10'> 
     {technologies.map((technology) => ( 
       <motion.div 
       key={technology.name} 
@@ -16,4 +17,4 @@ const Tech = () => {
   ); 
 }; 
   
-  export default Tech;
+export default SectionWrapper(Tech, "tech");

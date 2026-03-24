@@ -6,7 +6,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='w-full min-w-[160px]'>
+  // <Tilt className='w-full min-w-[160px]'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -30,7 +30,7 @@ const ServiceCard = ({ index, title, icon }) => (
         </h3>
       </div>
     </motion.div>
-  </Tilt>
+  // </Tilt>
 );
 
 const About = () => {
@@ -51,8 +51,8 @@ const About = () => {
         viewport={{ once: true, amount: 0.25 }}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a design engineer with 3+ years of industry experience designing electro-mechanical systems.
-        I love tackling complex engineering challenges and delivering high performing products by utilising cross-functional design, rapid prototyping, testing, and iteration.
+        I'm a mechanical/mechatronics engineer with 3+ years of industry experience designing electromechanical systems.
+        I love tackling complex engineering challenges and delivering safe, high-performing products through cross-functional collaboration, rapid prototyping, rigorous testing and clear documentation.
         I have served as the lead technical engineer on mutliple projects at Ocado Technology, and I have made tangible contributions to cutting-edge products including warehouse robots, material handling stations and radio systems for robots.
         My core skills include CAD, DfM/DfA (machining, sheet metal, 3D printing), Hardware Integration, Test Automation, User Interface Design, Simulation, Data Analysis, Leadership and Collaboration.
         If you're looking for someone who can blend creativity with technical depth, I'd love to help take your projects to the next level.

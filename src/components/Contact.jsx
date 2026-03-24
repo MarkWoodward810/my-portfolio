@@ -41,7 +41,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/mark-woodward-a28708195"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-[#126dc3] text-[14px] sm:text-[16px] hover:underline font-semibold"
+              className="flex items-center gap-2 text-[#126dc3] text-[14px] sm:text-[16px] font-semibold"
             >
               <img
                 src={linkedIn}
