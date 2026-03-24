@@ -141,17 +141,17 @@ const technologies = [
 
 const experiences = [
     {
-    title: " Mechanical Engineer",
+    title: "Mechanical Engineer",
     company_name: "Ocado Technology",
     icon: ocado,
     iconBg: "#E6DEDD",
     date: "Sep 2025 - Present",
     points: [
-      "Served as the lead mechanical engineer in the design and upgrade of legacy electro-mechanical subsystems for a key material handling station. Facilitated prototype builds, UX and safety-critical testing, and successfully released all designs to manufacture within four-months to meet a high-priority install deadline.",
-      "A core member of the design team developing a first-of-its-kind, public-facing grocery collection station. Collaborating across multiple disciplines we utilised concept generation, UX research, DFMEA, CAD, rapid prototyping and iteration to ensure seamless integration of hardware and software systems on-site.",
+      "Led the mechanical design and development of a legacy material handling station, implementing upgrades for operational readiness on a business-priority project. Coordinated prototype builds, user experience (UX) and safety-critical testing, and design releases to meet an accelerated install deadline.",
+      "A core member of the design team developing a first-of-its-kind, public-facing grocery collection station. Leveraged concept generation, UX research, DFMEAs, CAD, rapid prototyping, and iterative improvement to meet throughput and reliability targets while minimising cost.",
        {
         label: "Key skills:",
-        value: "Leadership, Electro-Mechanical Design, SOLIDWORKS, Onshape, DfM/DfA, GD&T, Design Methodologies, UX Design, Problem-Solving, Jira",
+        value: "Leadership, Electromechanical Design, SOLIDWORKS, Onshape, DfM/DfA, GD&T, Design Methodologies, UX Design, Problem-Solving, Jira",
       },
     ],
   },
