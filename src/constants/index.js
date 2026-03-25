@@ -147,8 +147,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2025 - Present",
     points: [
-      "Led the mechanical design and development of a legacy material handling station, implementing upgrades for operational readiness on a business-priority project. Coordinated prototype builds, user experience (UX) and safety-critical testing, and design releases to meet an accelerated install deadline.",
-      "A core member of the design team developing a first-of-its-kind, public-facing grocery collection station. Leveraged concept generation, UX research, DFMEAs, CAD, rapid prototyping, and iterative improvement to meet throughput and reliability targets while minimising cost.",
+      "Lead mechanical engineer on a business-priority project - implementing upgrades for a legacy material handling station with major changes to four key subsystems. Coordinated prototype builds, user experience (UX) and safety-critical testing, and design releases on an accelerated timeline.",
+      "Collaborated across project, installation, operations, compliance, manufacturing and software teams to support project delivery. Assisted suppliers with manufacture and Factory Acceptance Tests (FATs), and documented work packs and manuals.",
+      "A core member of the design team developing a first-of-its-kind, public-facing grocery collection station. Leveraged concept generation methods, sprint workshops, UX research, DFMEAs, CAD, rapid prototyping and iterative development to meet ambitious throughput and reliability targets while minimising cost.",
        {
         label: "Key skills:",
         value: "Leadership, Electromechanical Design, SOLIDWORKS, Onshape, DfM/DfA, GD&T, Design Methodologies, UX Design, Problem-Solving, Jira",
@@ -162,12 +163,16 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Mar 2025 - Sep 2025",
     points: [
-      "Coordinated a test bench investigation of alternative sensors for the Ocado 600 series bot, delivering key findings through a detailed report and departmental presentation.",
-      "Designed and built multiple programmable test rigs to simulate bot behaviour for testing cable harnessing and sensors.",
-      "Supported mechanical, electronics and software development for the 600 series cost down initiative.",
+      "Coordinated test bench investigations of alternative sensors for the next-generation Ocado 600 series bot, delivering key findings through reports and presentations.",
+      "Designed and built automated test rigs to simulate bot behavior and verify cable harness and sensor concepts, including sourcing components, 3D printing parts, assembling/programming PCBs and troubleshooting.",
+      "Supported mechanical, electronics, and firmware cost-reduction changes on the 600 Series robot and conducted EMC testing to de-risk any modifications.",
       {
         label: "Key skills:",
         value: "Onshape, 3D printing, Java, C/C++, Arduino, Raspberry Pi, Linux, GitLab, Data Analysis, Collaboration",
+      },
+      {
+        label: "Patents:",
+        value: "GB2513219.2 'Device with helical cable arrangement' - Filed",
       },
     ],
   },
@@ -195,7 +200,7 @@ const experiences = [
     date: "Mar 2024 - Sep 2024",
     points: [
       "Spearheaded the development of a Human Machine Interface (HMI) used for testing and commisioning peripheral machines.",
-      "Implemented a modular design, adding interface features using continuous integration methods, and demonstrated scalability across two prototypes.",
+      "Implemented a modular design, adding features using continuous integration methods, and demonstrated scalability across two prototypes.",
       "Successfully integrated the HMI with Ocado’s software stack and documented the application architecture to enable future development.",
       {
         label: "Key skills:",
@@ -265,7 +270,7 @@ const projects = [
     {
     name: "600 Series Bot Harnessing",
     description:
-      "I developed a patented cable harness design for the cost-down 600 Series Bot, utilising design reviews, rapid prototyping, test rigs builds and accelerated life testing with automated data collection to verify performance.",
+      "I developed a patented cable harness design for the cost-down 600 Series Bot. I verified performance through design reviews, rapid prototyping, test rig builds, accelerated life testing, data analysis and clear documentation.",
     tags: [
       {
         name: "nextjs",
@@ -286,7 +291,7 @@ const projects = [
   {
     name: "Inventory Handling Station",
     description:
-      "I served as the Lead Mechanical Engineer for new design and upgrade work to Ocado's Inventory Handling Station. I managed the design release of four electromechanical subsystems on an accelerated timeline.",
+      "I served as the Lead Mechanical Engineer for new design and upgrade work to Ocado's Inventory Handling Station. I managed the design release of 4x electromechanical subsystems on an accelerated timeline.",
     tags: [
       {
         name: "nextjs",

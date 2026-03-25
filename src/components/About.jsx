@@ -51,7 +51,7 @@ const About = () => {
       >
         I'm a mechanical/mechatronics engineer with 3+ years of industry experience designing electromechanical systems.
         I love tackling complex engineering challenges and delivering safe, high-performing products through cross-functional collaboration, rapid prototyping, rigorous testing and clear documentation.
-        I have served as the lead technical engineer on mutliple projects at Ocado Technology, and I have made tangible contributions to cutting-edge products including warehouse robots, material handling stations and radio systems for robots.
+        I have served as the lead technical engineer on mutliple projects at Ocado Technology, and I have made tangible contributions to cutting-edge products including warehouse robots, material handling stations and dense robot radio systems.
         My core skills include CAD, DfM/DfA (machining, sheet metal, 3D printing), Hardware Integration, Test Automation, User Interface Design, Simulation, Data Analysis, Leadership and Collaboration.
         If you're looking for someone who can blend creativity with technical depth, I'd love to help take your projects to the next level.
       </motion.p>
