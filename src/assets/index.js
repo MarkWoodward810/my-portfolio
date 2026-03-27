@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import background from "./bg-brown-fade.png"
 import link from "./link.png";
-import me from "./me.JPG"
+import me from "./me1.jpg"
 import email from "./email.png"
 
 import javascript from "./tech/javascript.png";

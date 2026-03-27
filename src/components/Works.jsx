@@ -15,6 +15,8 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div
+      onClick={() => window.open(pdf_link || source_code_link, "_blank")}
+      className="cursor-pointer"
       variants={fadeIn("up", "spring", 0.4, 1)}
       initial="hidden"
       whileInView="show"
@@ -37,8 +39,7 @@ const ProjectCard = ({
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              onClick={() => window.open(pdf_link || source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center'
             >
               <img
                 src={link}

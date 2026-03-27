@@ -152,7 +152,7 @@ const experiences = [
       "A core member of the design team developing a first-of-its-kind, public-facing grocery collection station. Leveraged concept generation methods, sprint workshops, UX research, DFMEAs, CAD, rapid prototyping and iterative development to meet ambitious throughput and reliability targets while minimising cost.",
        {
         label: "Key skills:",
-        value: "Leadership, Electromechanical Design, SOLIDWORKS, Onshape, DfM/DfA, GD&T, Design Methodologies, UX Design, Problem-Solving, Jira",
+        value: "Leadership, SOLIDWORKS, Onshape, DfM/DfA, BS8888, GD&T, Design Methods, UX Design, Problem-Solving, Jira",
       },
     ],
   },
@@ -168,7 +168,7 @@ const experiences = [
       "Supported mechanical, electronics, and firmware cost-reduction changes on the 600 Series robot and conducted EMC testing to de-risk any modifications.",
       {
         label: "Key skills:",
-        value: "Onshape, 3D printing, Java, C/C++, Arduino, Raspberry Pi, Linux, GitLab, Data Analysis, Collaboration",
+        value: "Onshape, Additive Manufacturing (FDM, MJF), Java, C/C++, Arduino, Raspberry Pi, Linux, GitLab, Data Analysis, Collaboration",
       },
       {
         label: "Patents:",

@@ -19,7 +19,7 @@ const Contact = () => {
         <img
           src={me}
           alt="Photo of Mark Woodward"
-          className="absolute top-4 right-4 w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover"
+          className="absolute top-4 right-4 w-20 h-20 sm:w-32 sm:h-32 rounded-full object-cover"
         />
 
         <div className="text-white font-medium space-y-1 mt-6">
