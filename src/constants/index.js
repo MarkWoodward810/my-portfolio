@@ -253,7 +253,7 @@ const testimonials = [
   {
     testimonial:
       "Mark has independently managed a project end-to-end, engaging effectively with stakeholders to clearly define requirements and ensure alignment across all parties. Mark is driven, dependable and able to deliver results with minimal supervision.",
-    name: "Waqar Mozzam",
+    name: "Waqar Moazzam",
     designation: "Engineering Manager",
     company: "Ocado Technology",
   },
