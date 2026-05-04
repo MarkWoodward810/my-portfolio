@@ -147,9 +147,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2025 - Present",
     points: [
-      "Lead mechanical engineer on a business-priority project - implementing upgrades for a legacy material handling station with major changes to four key subsystems. Coordinated prototype builds, user experience (UX) and safety-critical testing, and design releases on an accelerated timeline.",
-      "Collaborated across project, installation, operations, compliance, manufacturing and software teams to support project delivery. Assisted suppliers with manufacture and Factory Acceptance Tests (FATs), and documented work packs and manuals.",
-      "A core member of the design team developing a first-of-its-kind, public-facing grocery collection station. Leveraged concept generation methods, sprint workshops, UX research, DFMEAs, CAD, rapid prototyping and iterative development to meet ambitious throughput and reliability targets while minimising cost.",
+      "Led mechanical development of a legacy material handling station with major changes to four key subsystems. Coordinated prototype builds, user and safety-critical testing, and detailed design on an accelerated timeline.",
+      "Collaborated across project, installation, operations, compliance, manufacturing, electrical and software teams to align on design delivery. Assisted manufacturers by providing Standard Operating Procedures (SOPs) and install manuals.",
+      "A core member of the design team developing a first-of-its-kind, public-facing grocery collection station. Leveraged concept generation, sprint workshops, user research, failure-mode analysis, CAD, rapid prototyping and testing to meet ambitious throughput and reliability targets while minimising cost.",
        {
         label: "Key skills:",
         value: "Leadership, SOLIDWORKS, Onshape, DfM/DfA, BS8888, GD&T, Design Methods, UX Design, Problem-Solving, Jira",
@@ -164,8 +164,8 @@ const experiences = [
     date: "Mar 2025 - Sep 2025",
     points: [
       "Coordinated test bench investigations of alternative sensors for the next-generation Ocado 600 series bot, delivering key findings through reports and presentations.",
-      "Designed and built automated test rigs to simulate bot behavior and verify cable harness and sensor concepts, including sourcing components, 3D printing parts, assembling/programming PCBs and troubleshooting.",
-      "Supported mechanical, electronics, and firmware cost-reduction changes on the 600 Series robot and conducted EMC testing to de-risk any modifications.",
+      "Designed and built automated test rigs to simulate bot behavior and verify concepts, integrating electronics, embedded control systems and mechancal components.",
+      "Supported mechanical, electronics, and firmware changes on the 600 Series robot and conducted EMC testing to de-risk any modifications.",
       {
         label: "Key skills:",
         value: "Onshape, Additive Manufacturing (FDM, MJF), Java, C/C++, Arduino, Raspberry Pi, Linux, GitLab, Data Analysis, Collaboration",
@@ -215,7 +215,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2023 - Mar 2024",
     points: [
-      "Coordinated the design and test of a prototype to limit oversized cardboard entering the waste conveyor at a client site.",
+      "Led upgrades to third party material handling equipment including design, prototype and testing at client sites.",
       "Reviewed waste conveyor, plenum fan and tote conveyor designs to proivde technical guidance to suppliers in line with Ocado standards.",
       "Managed the end of life process for metal totes at Erith CFC, organising displosal on site and logging damage reports.",
       {
@@ -231,9 +231,9 @@ const experiences = [
     iconBg: "#6B8C48",
     date: "Jun 2020 - Jul 2021",
     points: [
-      "Collaborated in team meetings and technical reviews, developing the ability to contribute to a small, dynamic engineering team.", 
+      "Developed the ability to contribute to a small, dynamic design consultancy by collaborating in team meetings and design reviews.", 
       "Simulated thermal and energy performance of buildings using architectural data, and produced detailed mechanical and electrical drawings in AutoCAD.", 
-      "Attended site visits to review progress of construction and understand the handover process of mechanical and electrical services to clients.",
+      "Attended site visits to review progress of construction and the handover process of mechanical and electrical services to clients.",
       {
         label: "Key skills:",
         value: "AutoCAD, IES VE, Simulation, Excel, Communication, Time Management, On-site Experience",
@@ -252,8 +252,8 @@ const testimonials = [
   },
   {
     testimonial:
-      "Mark's ability to learn new concepts and skills, to collaborate effectively with other team members and to work autonomously with minimum guidance has been beyond my expectations.",
-    name: "Di Kong",
+      "Mark has independently managed a project end-to-end, engaging effectively with stakeholders to clearly define requirements and ensure alignment across all parties. Mark is driven, dependable and able to deliver results with minimal supervision.",
+    name: "Waqar Mozzam",
     designation: "Engineering Manager",
     company: "Ocado Technology",
   },
@@ -270,7 +270,7 @@ const projects = [
     {
     name: "600 Series Bot Harnessing",
     description:
-      "I developed a patented cable harness design for the cost-down 600 Series Bot. I verified performance through design reviews, rapid prototyping, test rig builds, accelerated life testing, data analysis and clear documentation.",
+      "I developed a patented cable harness routing solution for the 600 Series Bot and verified performance through rapid prototyping, accelerated life testing, data analysis and technical documentation.",
     tags: [
       {
         name: "nextjs",
@@ -291,7 +291,7 @@ const projects = [
   {
     name: "Inventory Handling Station",
     description:
-      "I served as the Lead Mechanical Engineer for new design and upgrade work to Ocado's Inventory Handling Station. I managed the design release of 4x electromechanical subsystems on an accelerated timeline.",
+      "I served as the Lead Mechanical Engineer for redesign and upgrade work to Ocado's Inventory Handling Station, managing the design release of four electromechanical subsystems on an accelerated timeline.",
     tags: [
       {
         name: "nextjs",
@@ -312,7 +312,7 @@ const projects = [
   {
     name: "Bot Radio Test Framework",
     description:
-      "I coordinated the testing of a new Bot radio system on a large-scale wireless testbed - the Skyrack. By designing test cases, executing production scenarios, and analysing results, I enhanced the test framework and enabled multi-team testing.",
+      "I coordinated the testing of a new Bot radio system on a dense, large-scale wireless testbed. By designing test cases, executing production scenarios, and analysing results, I enhanced the test framework and enabled multi-team testing.",
     tags: [
       {
         name: "react",
